@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 #include "hook.hpp"
+
 #include "imgui/imgui.h"
 
 static void menu_render() {
@@ -36,8 +37,6 @@ static BOOLEAN WINAPI DllMain(IN HMODULE hMod, IN DWORD dwReason,
       break;
 
     case DLL_PROCESS_DETACH:
-      SetWindowLongPtr(Hook::window, GWLP_WNDPROC, (LONG_PTR)Hook::oWndProc);
-      kiero::shutdown();
       break;
   }
 
