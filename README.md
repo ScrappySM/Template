@@ -3,6 +3,7 @@
 This is a template for building your own overlays with ImGui, Kiero and DirectX.
 
 ## Usage
+1. Sign in if you are not already
 1. Press "Use this template" button on the top right of the page
 2. Press "Create a new repository" in the drop-down
 3. Enter a repository name and press "Create repository"
