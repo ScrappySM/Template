@@ -26,8 +26,7 @@ static DWORD WINAPI MainThread(LPVOID lpReserved) {
   return TRUE;
 }
 
-static BOOLEAN WINAPI DllMain(IN HMODULE hMod, IN DWORD dwReason,
-                              IN LPVOID lpReserved) {
+BOOLEAN WINAPI DllMain(IN HMODULE hMod, IN DWORD dwReason, IN LPVOID lpReserved) {
   Hook::setup(menu_render, hMod);
 
   switch (dwReason) {
