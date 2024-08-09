@@ -8,9 +8,10 @@ This is a template for building your own overlays with ImGui, Kiero and DirectX.
 2. Press "Create a new repository" in the drop-down
 3. Enter a repository name and press "Create repository"
 4. Download the repository to your computer, using either Git or pressing Code > Download ZIP
-5. Open the project in Visual Studio (2022 recommended)
-6. Build the project solution
-7. Inject the DLL into the target process using your favourite injector
+5. Run `rename.bat` and change the project name to your desired name
+6. Open the project in Visual Studio (2022 recommended)
+7. Build the project solution
+8. Inject the DLL into the target process using your favourite injector
 
 ## Notes:
 - `VK_INS`/Insert to toggle the overlay
